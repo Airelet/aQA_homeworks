@@ -5,8 +5,10 @@ global_logic = ['Cindy Brooks', 'Arif Perkins', 'Ryan Ferry']
 toshiba.extend(global_logic)
 
 # 2
-bigno_blacklist = {'Riccardo Lozano', 'Nicky Powell', 'Randy Morris'}
+bingo_blacklist = {'Riccardo Lozano', 'Nicky Powell', 'Randy Morris'}
 poker_blacklist = {'Mila Salter', 'Randy Morris', 'Abel Poole', 'Jem Chase'}
-majong_blacklist = {'Randy Morris', 'Riccardo Lozano', 'Gruffydd Vaughan'}
+mahjong_blacklist = {'Randy Morris', 'Riccardo Lozano', 'Gruffydd Vaughan'}
+
+bingo_blacklist.intersection(poker_blacklist, mahjong_blacklist)
 
 bigno_blacklist.intersection(poker_blacklist, majong_blacklist)
