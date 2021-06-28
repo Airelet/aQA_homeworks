@@ -10,3 +10,9 @@ poker_blacklist = {'Mila Salter', 'Randy Morris', 'Abel Poole', 'Jem Chase'}
 mahjong_blacklist = {'Randy Morris', 'Riccardo Lozano', 'Gruffydd Vaughan'}
 
 bingo_blacklist.intersection(poker_blacklist, mahjong_blacklist)
+
+# 3
+vegetarians = ['Brian Hunter', 'Osman Leon', 'Nikhil Owens']
+omnivores = ['Eben Tyson', 'Nico White', 'Darius West', 'Delia Owen']
+
+print(vegetarians + omnivores)
