@@ -36,3 +36,12 @@ common_places = {
     'place_8': '',
     'place_9': 'Anne Cano'
 }
+
+# 5
+people = ['Rahim Mccoy', 'John Dow', 'Dorothy King', 'Khalil Olson',
+        'Marta Dow', 'John Dow', 'Leyton Brandt', 'Dorothy King']
+
+for i in people:
+    if people.count(i) > 1:
+        people.remove(i)
+print(people)
