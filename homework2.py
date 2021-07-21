@@ -3,7 +3,13 @@ toshiba = ['Kara Cohen', 'Onur Boyce', 'Cindy Brooks', 'Saarah Lowe']
 global_logic = ['Cindy Brooks', 'Arif Perkins', 'Ryan Ferry']
 
 toshiba.extend(global_logic)
+global_logic.clear()
+
+# print(f"Global logic employees: {global_logic}")
+# print(f"Toshiba employees: {toshiba}")
+
 # Good but employees of global now in both companies but should be in toshiba
+# Fixed
 
 # 2
 bingo_blacklist = {'Riccardo Lozano', 'Nicky Powell', 'Randy Morris'}
@@ -28,7 +34,7 @@ vip_places = {
     'place_3': 'Martina Carpenter',
     'place_4': 'Alix Rooney',
     'place_5': 'Tyrese Pena',
-    'place_5': 'Intruder',
+    'place_6': 'Intruder',
 }
 common_places = {
     'place_1': 'Keeleigh Craig',
@@ -41,7 +47,10 @@ common_places = {
     'place_8': '',
     'place_9': 'Anne Cano'
 }
+
+
 # Not bad but I can easily extend vip places
+# I have no idea how to make
 
 # 5
 people = [
